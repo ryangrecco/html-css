@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="cadastro.html" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required maxlength="20" minlength="3" autocomplete="name" placeholder="Digite Seu nome">
+        </p>
+        <p>
+            <label for="iemail">E-mail:</label>
+            <input type="email" name="email" id="iemail" autocomplete="email">
+        </p>
+        <p>
+            <label for="inasc">Data de Nascimento:</label>
+            <input type="date" name="nasc" id="inasc">
+        </p>
+        <p>
+            
+            <input type="radio" name="sexo" id="isxmas"><label for="isxmas">Masculino</label>
+            <input type="radio" name="sexo" id="isxfem"><label for="isxfem">Feminino</label>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+           
+       </p>
+
+    </form>
+</body>
+</html>
