@@ -1,0 +1,14 @@
+@media screen and (min-width: 1200px){
+
+
+    img#dandroids-grande{ 
+        display: block;
+        margin: auto;
+    }
+    img#dandroids-pequeno{ display: none;}
+    img#irina-grande{ 
+        display: block;
+        margin: auto;
+    }
+    img#irina-pequeno{ display: none;}
+}

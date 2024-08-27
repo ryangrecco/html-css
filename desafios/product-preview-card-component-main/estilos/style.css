@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+    width: 375PX;
+    margin: auto;
+    padding: ;
+    border-radius: 0px 0px 10px 10px;
+}
+
+img{
+    max-width: 375PX;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+div.conteudo{
+    padding: 30px;
+}
+
+ h2{
+    font-family: monospace;
+    color: hsl(228, 12%, 48%);
+}
+
+h1{
+    font-family: 'Fraunces';
+    font-weight: 700;
+    padding: 10px 0px 10px 0px;
+}
+
+p{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+div.container{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    
+}
+
+#preco{
+    font-family: 'Fraunces';
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+
+#preco-original{
+    color:  hsl(228, 12%, 48%);
+}
+
+a{
+    font-family: 'Montserrat';
+    display: block;
+    background-color: hsl(158, 36%, 37%);
+    width: 300px;
+    margin: auto;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+svg{
+    padding-right: 10px;
+}
+
+a:hover{
+    background-color: white;
+    color: hsl(158, 36%, 37%);
+    border-style: solid;
+}
+
+svg:hover{
+    color: hsl(158, 36%, 37%);
+}
+
+
