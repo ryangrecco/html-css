@@ -15,18 +15,21 @@ body{
 main{
     background-color: hsl(0, 0%, 100%);
     display: block;
-    width: 375PX;
+    width: 375px;
     margin: auto;
-    padding: ;
     border-radius: 0px 0px 10px 10px;
 }
 
-img{
-    max-width: 375PX;
+div#imagem-mobile > img{
+    max-width: 375px;
     display: block;
     margin: auto;
     margin-top: 50px;
     border-radius: 10px 10px 0px 0px ;
+}
+
+div#imagem-desktop > img{
+    display: none;
 }
 
 div.conteudo{
@@ -50,7 +53,7 @@ p{
     padding-bottom: 20px;
 }
 
-div.container{
+div.valores{
     display: flex;
     justify-content: space-between;
     width: 200px;

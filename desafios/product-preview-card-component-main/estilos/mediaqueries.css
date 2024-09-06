@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1025px){
+    div.container{
+        margin-top: 20vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    main{
+        margin: 0px;
+        border-radius: 0px 10px 10px 0px;
+        width: 300px;
+        
+    }
+ 
+    div#imagem-mobile > img{
+        display: none;
+    }
+
+    div#imagem-desktop > img{
+        display: block;
+        width: 300px;
+        border-radius: 10px 0px 0px 10px;
+    }
+    
+    a{
+        width: 200px;
+    }
+
+
+}
